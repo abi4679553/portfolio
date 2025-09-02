@@ -1,0 +1,25 @@
+.nav{
+    display:  flex;
+    border: none;
+    background-color:purple;
+}
+.nav1{
+    margin-left: 10px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    gap: 35px;
+    margin-left: 30%;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+.body{
+    background-color:rgb(150, 9, 221);
+    padding: 30px;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
