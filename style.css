@@ -1,10 +1,10 @@
 .nav{
     display:  flex;
     border: none;
-    background-color:purple;
+    background-color:darkblue;
 }
 .nav1{
-    margin-left: 10px;
+    margin-left: 30px;
     color: white;
 }
 .navbar{
@@ -16,10 +16,41 @@
     padding-top: 10px;
     color: white;
 }
-.body{
-    background-color:rgb(150, 9, 221);
-    padding: 30px;
-    margin-top: 0px;
+.p{
+    font-size: 50px;
+    font-weight: bold;
     text-align: center;
+    text-shadow:;
     color: white;
+}
+.p1{
+    color: white;
+    text-align: center;
+}
+
+.button{
+    color: white;
+    background-color:darkblue;
+    justify-content: center;
+    margin-left: 45%;
+    height: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.body{
+    background-color:indigo;
+    margin-top: 0%;
+    padding: 20px;
+}
+
+.about{
+    text-align: center;
+    color: black;
+    background-color:cornflowerblue;
+    padding: 100px;
+    margin: 30px;
+    
+
 }
