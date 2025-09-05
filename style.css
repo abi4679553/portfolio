@@ -1,7 +1,7 @@
 .nav{
     display:  flex;
     border: none;
-    background-color:darkgreen;
+    background-color:darkblue;
     padding: 10px;
     position: sticky;
     top: 0;
@@ -34,7 +34,7 @@
 
 .button{
     color: white;
-    background-color:darkgreen;
+    background-color:darkblue;
     justify-content: center;
     margin-left: 45%;
     height: 50px;
@@ -44,7 +44,7 @@
 }
 
 .body{
-    background-color:darkolivegreen;
+    background-color:rgb(22, 22, 55);
     margin-top: 0%;
     padding: 20px;
 }
@@ -52,9 +52,10 @@
 .about{
     text-align: center;
     color: black;
-    background-color:darkseagreen;
+    background-color:rgb(38, 33, 69);
     padding: 60px;
     margin: 30px;
+    color: white;
 }
 .p2{
     
@@ -92,4 +93,37 @@
     text-align: center;
     font-size: x-large;
     padding: 30px;
+}
+.box{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border:none;
+    height: 100;
+    width: 250px;
+    background-color: white;
+}
+.education{
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact{
+    text-align: center;
+    border:solid;
+    margin: 20px;
+    padding: 30px;
+    width: 300px;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.send{
+    background-color: darkblue;
+    height: 30px;
+    width: 290px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
 }
