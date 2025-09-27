@@ -1,3 +1,6 @@
+*{
+    text-decoration: none;
+}
 .nav{
     display:  flex;
     border: none;
@@ -18,6 +21,7 @@
     font-weight: bold;
     padding-top: 10px;
     color: white;
+    cursor: pointer;
 }
 .p{
     font-size: 50px;
@@ -95,8 +99,7 @@
 .p7{
     text-align: center;
     font-size: x-large;   
-    border: solid;
-    height: 350px;
+    height: 300px;
     width: 700px;
 }
 .box{
@@ -107,30 +110,42 @@
     height: 100;
     width: 250px;
     background-color: white;
+    box-shadow: 0  6px 60px rgb(122, 52, 122);
+}
+.box:hover{
+    transform: translatex(5px);
+    box-shadow: 0 5px 50px rgb(217, 16, 217);
+
+
 }
 .education{
-    background-color: lightgrey;
+
     display: flex;
     justify-content: space-evenly;
+    
 }
 .Contact{
     text-align: center;
-    border:solid;
     margin: 20px;
     padding: 30px;
-    width: 300px;
+    width: 500px;
     justify-content: center;
     margin-left: 35%;
     margin-top: 10%;
+
+    box-shadow: 0  6px 60px rgb(167, 18, 167);
 }
+
 .send{
     background-color: darkblue;
     height: 30px;
-    width: 290px;
+    width: 300px;
     text-align: center;
     color: white;
     margin-top: 20px;
     padding: 10px;
+    margin-left: 92px;
+    align-items: center;
 }
 .f1{
     margin-left: 20px;
@@ -141,6 +156,7 @@
     gap: 50px;
     margin-left: 30%;
     margin-top: 10%;
+    color: white;
 }
 
 .footer{
