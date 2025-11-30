@@ -151,11 +151,12 @@
     margin-left: 20px;
 }
 .f2{
+    align-items: center;
     display: flex;
     justify-content: end;
     gap: 50px;
     margin-left: 30%;
-    margin-top: 10%;
+
     color: white;
 }
 
